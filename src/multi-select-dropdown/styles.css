@@ -1,0 +1,32 @@
+.dropdown-trigger {
+    min-width: 100px;
+    min-height: 30px;
+    /* TODO: change this */
+    border: 1px solid black;
+}
+
+.dropdown-options-container {
+    border: 1px solid black;
+    margin-top: 2px;
+    min-height: 30px;
+}
+
+.dropdown-option {
+    padding: 2px 5px;
+}
+
+.dropdown-option:hover {
+    color: white;
+    background: black;
+}
+
+.dropdown-filter {
+    padding: 2px;
+}
+
+.dropdown-filter input {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 25px;
+    ;
+}
